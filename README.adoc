@@ -1,0 +1,9 @@
+spr332v2
+------------------------
+
+Utilities for interacting with the Identiv SPR332 v2 pinpad.
+
+Requirements (may be incomplete):
+* pcsclite
+* opensc
+* DRIVER_OPTION_CCID_EXCHANGE_AUTHORIZED / ifdDriverOptions = 0x0001 in your /etc/libccid_Info.plist
